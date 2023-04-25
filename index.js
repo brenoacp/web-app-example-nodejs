@@ -9,7 +9,7 @@ const server = http.createServer()
 // create response function
 function handleListener(req, res){
     res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write('<h1>Hello World!</h1><h2>SENAI 6.62</h2>');
+    res.write('<h1>Hello World!</h1><h2>SENAI 6.62 - Teste</h2>');
     res.end()
 }
 
